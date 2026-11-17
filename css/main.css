@@ -574,3 +574,20 @@ color: #FFF;
 .footer-wrapper span:last-child{
     text-align: right;
 }
+/* ===== Доработки: плавный скролл и ссылки в контактах ===== */
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 20px;
+}
+
+.contacts-item-desc a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contacts-item-desc a:hover {
+    text-decoration: underline;
+}
